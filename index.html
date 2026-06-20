@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="description" content="A simple weather app that allows users to search for current weather conditions in any city.">
+    <meta name="keywords" content="weather, app, current weather, city weather, weather forecast">
+    <meta name="author" content="Muhammad Bin Hammad">
+    <title>Weather App</title>
 </head>
-<body>
+<body>git 
     <header>
     <div id="navbar">
         <h2>Weather App</h2>
     </div>
     </header>
     <main>
-        <div id="search-container">
-            <input type="text" id="city-input" placeholder="Enter city name">
-            <button id="search-button">Search</button>
-        </div>
-        <div id="weather-display">
+        
+    <div id="search-container">
+        <input type="text" id="city-input">
+        <button id="search-button">Search</button>
+    </div>
+   
+    <div id="weather-display"></div>
+
             <!-- Weather information will be displayed here -->
         </div>
+        <div class="loader"></div>
         <div id="more-info">
             <!-- Additional information will be displayed here -->
         </div>
@@ -32,5 +39,7 @@
         <p>&copy; 2026 Weather App. All rights reserved.</p>
         <p>Developed by Muhammad Bin Hammad</p>
     </footer>
+    <script src="api.js"></script>
+    <script src="script.js"></script>
 </body>
 </html> 
